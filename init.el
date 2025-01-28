@@ -4,7 +4,8 @@
 (tooltip-mode -1)
 (menu-bar-mode -1)
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
-
+(set-face-attribute 'bold nil :inverse-video t)
+(set-face-attribute 'underline nil :inverse-video t)
 
 ;; Initialize package sources
 (require 'package)
